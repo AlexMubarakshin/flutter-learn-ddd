@@ -24,7 +24,7 @@ class _$AuthFailureTearOff {
     return const EmailAlreadyInUse();
   }
 
-  InvalidEmailAndPasswordcombination invalidEmailAndPasswordcombination() {
+  InvalidEmailAndPasswordcombination invalidEmailAndPasswordCombination() {
     return const InvalidEmailAndPasswordcombination();
   }
 }
@@ -38,14 +38,14 @@ mixin _$AuthFailure {
     @required Result cancelledByUser(),
     @required Result serverError(),
     @required Result emailAlreadyInUse(),
-    @required Result invalidEmailAndPasswordcombination(),
+    @required Result invalidEmailAndPasswordCombination(),
   });
   @optionalTypeArgs
   Result maybeWhen<Result extends Object>({
     Result cancelledByUser(),
     Result serverError(),
     Result emailAlreadyInUse(),
-    Result invalidEmailAndPasswordcombination(),
+    Result invalidEmailAndPasswordCombination(),
     @required Result orElse(),
   });
   @optionalTypeArgs
@@ -54,7 +54,7 @@ mixin _$AuthFailure {
     @required Result serverError(ServerError value),
     @required Result emailAlreadyInUse(EmailAlreadyInUse value),
     @required
-        Result invalidEmailAndPasswordcombination(
+        Result invalidEmailAndPasswordCombination(
             InvalidEmailAndPasswordcombination value),
   });
   @optionalTypeArgs
@@ -62,7 +62,7 @@ mixin _$AuthFailure {
     Result cancelledByUser(CancelledByUser value),
     Result serverError(ServerError value),
     Result emailAlreadyInUse(EmailAlreadyInUse value),
-    Result invalidEmailAndPasswordcombination(
+    Result invalidEmailAndPasswordCombination(
         InvalidEmailAndPasswordcombination value),
     @required Result orElse(),
   });
@@ -121,12 +121,12 @@ class _$CancelledByUser implements CancelledByUser {
     @required Result cancelledByUser(),
     @required Result serverError(),
     @required Result emailAlreadyInUse(),
-    @required Result invalidEmailAndPasswordcombination(),
+    @required Result invalidEmailAndPasswordCombination(),
   }) {
     assert(cancelledByUser != null);
     assert(serverError != null);
     assert(emailAlreadyInUse != null);
-    assert(invalidEmailAndPasswordcombination != null);
+    assert(invalidEmailAndPasswordCombination != null);
     return cancelledByUser();
   }
 
@@ -136,7 +136,7 @@ class _$CancelledByUser implements CancelledByUser {
     Result cancelledByUser(),
     Result serverError(),
     Result emailAlreadyInUse(),
-    Result invalidEmailAndPasswordcombination(),
+    Result invalidEmailAndPasswordCombination(),
     @required Result orElse(),
   }) {
     assert(orElse != null);
@@ -153,13 +153,13 @@ class _$CancelledByUser implements CancelledByUser {
     @required Result serverError(ServerError value),
     @required Result emailAlreadyInUse(EmailAlreadyInUse value),
     @required
-        Result invalidEmailAndPasswordcombination(
+        Result invalidEmailAndPasswordCombination(
             InvalidEmailAndPasswordcombination value),
   }) {
     assert(cancelledByUser != null);
     assert(serverError != null);
     assert(emailAlreadyInUse != null);
-    assert(invalidEmailAndPasswordcombination != null);
+    assert(invalidEmailAndPasswordCombination != null);
     return cancelledByUser(this);
   }
 
@@ -169,7 +169,7 @@ class _$CancelledByUser implements CancelledByUser {
     Result cancelledByUser(CancelledByUser value),
     Result serverError(ServerError value),
     Result emailAlreadyInUse(EmailAlreadyInUse value),
-    Result invalidEmailAndPasswordcombination(
+    Result invalidEmailAndPasswordCombination(
         InvalidEmailAndPasswordcombination value),
     @required Result orElse(),
   }) {
@@ -223,12 +223,12 @@ class _$ServerError implements ServerError {
     @required Result cancelledByUser(),
     @required Result serverError(),
     @required Result emailAlreadyInUse(),
-    @required Result invalidEmailAndPasswordcombination(),
+    @required Result invalidEmailAndPasswordCombination(),
   }) {
     assert(cancelledByUser != null);
     assert(serverError != null);
     assert(emailAlreadyInUse != null);
-    assert(invalidEmailAndPasswordcombination != null);
+    assert(invalidEmailAndPasswordCombination != null);
     return serverError();
   }
 
@@ -238,7 +238,7 @@ class _$ServerError implements ServerError {
     Result cancelledByUser(),
     Result serverError(),
     Result emailAlreadyInUse(),
-    Result invalidEmailAndPasswordcombination(),
+    Result invalidEmailAndPasswordCombination(),
     @required Result orElse(),
   }) {
     assert(orElse != null);
@@ -255,13 +255,13 @@ class _$ServerError implements ServerError {
     @required Result serverError(ServerError value),
     @required Result emailAlreadyInUse(EmailAlreadyInUse value),
     @required
-        Result invalidEmailAndPasswordcombination(
+        Result invalidEmailAndPasswordCombination(
             InvalidEmailAndPasswordcombination value),
   }) {
     assert(cancelledByUser != null);
     assert(serverError != null);
     assert(emailAlreadyInUse != null);
-    assert(invalidEmailAndPasswordcombination != null);
+    assert(invalidEmailAndPasswordCombination != null);
     return serverError(this);
   }
 
@@ -271,7 +271,7 @@ class _$ServerError implements ServerError {
     Result cancelledByUser(CancelledByUser value),
     Result serverError(ServerError value),
     Result emailAlreadyInUse(EmailAlreadyInUse value),
-    Result invalidEmailAndPasswordcombination(
+    Result invalidEmailAndPasswordCombination(
         InvalidEmailAndPasswordcombination value),
     @required Result orElse(),
   }) {
@@ -326,12 +326,12 @@ class _$EmailAlreadyInUse implements EmailAlreadyInUse {
     @required Result cancelledByUser(),
     @required Result serverError(),
     @required Result emailAlreadyInUse(),
-    @required Result invalidEmailAndPasswordcombination(),
+    @required Result invalidEmailAndPasswordCombination(),
   }) {
     assert(cancelledByUser != null);
     assert(serverError != null);
     assert(emailAlreadyInUse != null);
-    assert(invalidEmailAndPasswordcombination != null);
+    assert(invalidEmailAndPasswordCombination != null);
     return emailAlreadyInUse();
   }
 
@@ -341,7 +341,7 @@ class _$EmailAlreadyInUse implements EmailAlreadyInUse {
     Result cancelledByUser(),
     Result serverError(),
     Result emailAlreadyInUse(),
-    Result invalidEmailAndPasswordcombination(),
+    Result invalidEmailAndPasswordCombination(),
     @required Result orElse(),
   }) {
     assert(orElse != null);
@@ -358,13 +358,13 @@ class _$EmailAlreadyInUse implements EmailAlreadyInUse {
     @required Result serverError(ServerError value),
     @required Result emailAlreadyInUse(EmailAlreadyInUse value),
     @required
-        Result invalidEmailAndPasswordcombination(
+        Result invalidEmailAndPasswordCombination(
             InvalidEmailAndPasswordcombination value),
   }) {
     assert(cancelledByUser != null);
     assert(serverError != null);
     assert(emailAlreadyInUse != null);
-    assert(invalidEmailAndPasswordcombination != null);
+    assert(invalidEmailAndPasswordCombination != null);
     return emailAlreadyInUse(this);
   }
 
@@ -374,7 +374,7 @@ class _$EmailAlreadyInUse implements EmailAlreadyInUse {
     Result cancelledByUser(CancelledByUser value),
     Result serverError(ServerError value),
     Result emailAlreadyInUse(EmailAlreadyInUse value),
-    Result invalidEmailAndPasswordcombination(
+    Result invalidEmailAndPasswordCombination(
         InvalidEmailAndPasswordcombination value),
     @required Result orElse(),
   }) {
@@ -416,7 +416,7 @@ class _$InvalidEmailAndPasswordcombination
 
   @override
   String toString() {
-    return 'AuthFailure.invalidEmailAndPasswordcombination()';
+    return 'AuthFailure.invalidEmailAndPasswordCombination()';
   }
 
   @override
@@ -434,13 +434,13 @@ class _$InvalidEmailAndPasswordcombination
     @required Result cancelledByUser(),
     @required Result serverError(),
     @required Result emailAlreadyInUse(),
-    @required Result invalidEmailAndPasswordcombination(),
+    @required Result invalidEmailAndPasswordCombination(),
   }) {
     assert(cancelledByUser != null);
     assert(serverError != null);
     assert(emailAlreadyInUse != null);
-    assert(invalidEmailAndPasswordcombination != null);
-    return invalidEmailAndPasswordcombination();
+    assert(invalidEmailAndPasswordCombination != null);
+    return invalidEmailAndPasswordCombination();
   }
 
   @override
@@ -449,12 +449,12 @@ class _$InvalidEmailAndPasswordcombination
     Result cancelledByUser(),
     Result serverError(),
     Result emailAlreadyInUse(),
-    Result invalidEmailAndPasswordcombination(),
+    Result invalidEmailAndPasswordCombination(),
     @required Result orElse(),
   }) {
     assert(orElse != null);
-    if (invalidEmailAndPasswordcombination != null) {
-      return invalidEmailAndPasswordcombination();
+    if (invalidEmailAndPasswordCombination != null) {
+      return invalidEmailAndPasswordCombination();
     }
     return orElse();
   }
@@ -466,14 +466,14 @@ class _$InvalidEmailAndPasswordcombination
     @required Result serverError(ServerError value),
     @required Result emailAlreadyInUse(EmailAlreadyInUse value),
     @required
-        Result invalidEmailAndPasswordcombination(
+        Result invalidEmailAndPasswordCombination(
             InvalidEmailAndPasswordcombination value),
   }) {
     assert(cancelledByUser != null);
     assert(serverError != null);
     assert(emailAlreadyInUse != null);
-    assert(invalidEmailAndPasswordcombination != null);
-    return invalidEmailAndPasswordcombination(this);
+    assert(invalidEmailAndPasswordCombination != null);
+    return invalidEmailAndPasswordCombination(this);
   }
 
   @override
@@ -482,13 +482,13 @@ class _$InvalidEmailAndPasswordcombination
     Result cancelledByUser(CancelledByUser value),
     Result serverError(ServerError value),
     Result emailAlreadyInUse(EmailAlreadyInUse value),
-    Result invalidEmailAndPasswordcombination(
+    Result invalidEmailAndPasswordCombination(
         InvalidEmailAndPasswordcombination value),
     @required Result orElse(),
   }) {
     assert(orElse != null);
-    if (invalidEmailAndPasswordcombination != null) {
-      return invalidEmailAndPasswordcombination(this);
+    if (invalidEmailAndPasswordCombination != null) {
+      return invalidEmailAndPasswordCombination(this);
     }
     return orElse();
   }
