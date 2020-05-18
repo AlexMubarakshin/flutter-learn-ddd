@@ -9,8 +9,8 @@ part of 'failures.dart';
 
 T _$identity<T>(T value) => value;
 
-class _$ValueFialureTearOff {
-  const _$ValueFialureTearOff();
+class _$ValueFailureTearOff {
+  const _$ValueFailureTearOff();
 
   InvalidEmail<T> invalidEmail<T>({@required String valueFailure}) {
     return InvalidEmail<T>(
@@ -26,9 +26,9 @@ class _$ValueFialureTearOff {
 }
 
 // ignore: unused_element
-const $ValueFialure = _$ValueFialureTearOff();
+const $ValueFailure = _$ValueFailureTearOff();
 
-mixin _$ValueFialure<T> {
+mixin _$ValueFailure<T> {
   String get valueFailure;
 
   @optionalTypeArgs
@@ -54,23 +54,23 @@ mixin _$ValueFialure<T> {
     @required Result orElse(),
   });
 
-  $ValueFialureCopyWith<T, ValueFialure<T>> get copyWith;
+  $ValueFailureCopyWith<T, ValueFailure<T>> get copyWith;
 }
 
-abstract class $ValueFialureCopyWith<T, $Res> {
-  factory $ValueFialureCopyWith(
-          ValueFialure<T> value, $Res Function(ValueFialure<T>) then) =
-      _$ValueFialureCopyWithImpl<T, $Res>;
+abstract class $ValueFailureCopyWith<T, $Res> {
+  factory $ValueFailureCopyWith(
+          ValueFailure<T> value, $Res Function(ValueFailure<T>) then) =
+      _$ValueFailureCopyWithImpl<T, $Res>;
   $Res call({String valueFailure});
 }
 
-class _$ValueFialureCopyWithImpl<T, $Res>
-    implements $ValueFialureCopyWith<T, $Res> {
-  _$ValueFialureCopyWithImpl(this._value, this._then);
+class _$ValueFailureCopyWithImpl<T, $Res>
+    implements $ValueFailureCopyWith<T, $Res> {
+  _$ValueFailureCopyWithImpl(this._value, this._then);
 
-  final ValueFialure<T> _value;
+  final ValueFailure<T> _value;
   // ignore: unused_field
-  final $Res Function(ValueFialure<T>) _then;
+  final $Res Function(ValueFailure<T>) _then;
 
   @override
   $Res call({
@@ -85,7 +85,7 @@ class _$ValueFialureCopyWithImpl<T, $Res>
 }
 
 abstract class $InvalidEmailCopyWith<T, $Res>
-    implements $ValueFialureCopyWith<T, $Res> {
+    implements $ValueFailureCopyWith<T, $Res> {
   factory $InvalidEmailCopyWith(
           InvalidEmail<T> value, $Res Function(InvalidEmail<T>) then) =
       _$InvalidEmailCopyWithImpl<T, $Res>;
@@ -94,7 +94,7 @@ abstract class $InvalidEmailCopyWith<T, $Res>
 }
 
 class _$InvalidEmailCopyWithImpl<T, $Res>
-    extends _$ValueFialureCopyWithImpl<T, $Res>
+    extends _$ValueFailureCopyWithImpl<T, $Res>
     implements $InvalidEmailCopyWith<T, $Res> {
   _$InvalidEmailCopyWithImpl(
       InvalidEmail<T> _value, $Res Function(InvalidEmail<T>) _then)
@@ -124,7 +124,7 @@ class _$InvalidEmail<T> implements InvalidEmail<T> {
 
   @override
   String toString() {
-    return 'ValueFialure<$T>.invalidEmail(valueFailure: $valueFailure)';
+    return 'ValueFailure<$T>.invalidEmail(valueFailure: $valueFailure)';
   }
 
   @override
@@ -195,7 +195,7 @@ class _$InvalidEmail<T> implements InvalidEmail<T> {
   }
 }
 
-abstract class InvalidEmail<T> implements ValueFialure<T> {
+abstract class InvalidEmail<T> implements ValueFailure<T> {
   const factory InvalidEmail({@required String valueFailure}) =
       _$InvalidEmail<T>;
 
@@ -206,7 +206,7 @@ abstract class InvalidEmail<T> implements ValueFialure<T> {
 }
 
 abstract class $ShortPasswordCopyWith<T, $Res>
-    implements $ValueFialureCopyWith<T, $Res> {
+    implements $ValueFailureCopyWith<T, $Res> {
   factory $ShortPasswordCopyWith(
           ShortPassword<T> value, $Res Function(ShortPassword<T>) then) =
       _$ShortPasswordCopyWithImpl<T, $Res>;
@@ -215,7 +215,7 @@ abstract class $ShortPasswordCopyWith<T, $Res>
 }
 
 class _$ShortPasswordCopyWithImpl<T, $Res>
-    extends _$ValueFialureCopyWithImpl<T, $Res>
+    extends _$ValueFailureCopyWithImpl<T, $Res>
     implements $ShortPasswordCopyWith<T, $Res> {
   _$ShortPasswordCopyWithImpl(
       ShortPassword<T> _value, $Res Function(ShortPassword<T>) _then)
@@ -245,7 +245,7 @@ class _$ShortPassword<T> implements ShortPassword<T> {
 
   @override
   String toString() {
-    return 'ValueFialure<$T>.shortPassword(valueFailure: $valueFailure)';
+    return 'ValueFailure<$T>.shortPassword(valueFailure: $valueFailure)';
   }
 
   @override
@@ -316,7 +316,7 @@ class _$ShortPassword<T> implements ShortPassword<T> {
   }
 }
 
-abstract class ShortPassword<T> implements ValueFialure<T> {
+abstract class ShortPassword<T> implements ValueFailure<T> {
   const factory ShortPassword({@required String valueFailure}) =
       _$ShortPassword<T>;
 
